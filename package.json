@@ -1,0 +1,19 @@
+{
+  "name": "node-myo",
+  "version": "0.1.0",
+  "description": "Node.js library for connecting directly to Myo armbands via their published Bluetooth protocol. Created for use on Windows, Mac OS, or Linux.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:urbaneinnovation/node-myo.git"
+  },
+  "author": "jonathan@urbaneinnovation.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/urbaneinnovation/node-myo/issues"
+  },
+  "homepage": "https://github.com/urbaneinnovation/node-myo"
+}
