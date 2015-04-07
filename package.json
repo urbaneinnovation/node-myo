@@ -4,7 +4,7 @@
   "description": "Node.js library for connecting directly to Myo armbands via their published Bluetooth protocol. Created for use on Windows, Mac OS, or Linux.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node_modules/.bin/mocha -w test/*"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/urbaneinnovation/node-myo/issues"
   },
-  "homepage": "https://github.com/urbaneinnovation/node-myo"
+  "homepage": "https://github.com/urbaneinnovation/node-myo",
+  "dependencies": {
+    "debug": "^2.1.3",
+    "noble": "^0.3.11"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1",
+    "proxyquire": "^1.4.0"
+  }
 }
