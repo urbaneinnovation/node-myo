@@ -7,7 +7,7 @@ node-myo is a Node.js library for connecting directly to Myo armbands via Thalmi
 For running on Linux, you will need Bluez5 installed (Bluez4 does not support BLE devices); on Mac, you will need XCode installed. See https://github.com/sandeepmistry/noble for more detailed prerequisites.
 
 ```sh
-npm install -g node-myo
+npm install node-myo
 ```
 
 ## Usage
