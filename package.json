@@ -1,6 +1,6 @@
 {
   "name": "node-myo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js library for connecting directly to Myo armbands via their published Bluetooth protocol. Created for use on Windows, Mac OS, or Linux.",
   "main": "index.js",
   "scripts": {

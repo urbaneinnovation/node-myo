@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-var MyoDiscoveryAgent = require('lib/discovery/myo-discovery-agent');
+var MyoDiscoveryAgent = require('./lib/discovery/myo-discovery-agent');
 
 module.exports = {
 	MyoDiscoveryAgent: MyoDiscoveryAgent
