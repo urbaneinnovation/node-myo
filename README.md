@@ -1,3 +1,3 @@
 # node-myo
 
-Status: In progress. Myo armband connection has been implemented (see examples/connectToFirstAvailableArmband.js. You may have to run the script as sudo).
+node-myo is a Node.js library for connecting directly to Myo armbands via Thalmic Lab's published Bluetooth protocol. Created for use Mac OS or Linux out of the box, with Windows support contingent on having the Windows Developer SDK installed on your system.
