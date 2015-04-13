@@ -10,7 +10,16 @@ For running on Linux, you will need Bluez5 installed (Bluez4 does not support BL
 npm install node-myo
 ```
 
-## Usage
+## Test
+
+After cloning the repository, run the following command:
+
+```sh
+npm test
+```
+
+
+## Use
 
 The following will start scanning for Myo armbands, and log those found.
 
